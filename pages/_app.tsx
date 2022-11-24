@@ -109,7 +109,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Loading />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
